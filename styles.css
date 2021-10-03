@@ -1,0 +1,14 @@
+.container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-atemplate-rows: 150px 150px;
+}
+
+#header{
+	background-color: #63B3ED;
+	grid-column: 1/4;
+}
+#footer{
+	background-color: #2C5282;
+	grid-column: 1;
+}
